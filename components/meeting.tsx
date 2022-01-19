@@ -4,8 +4,8 @@ import Stream from "./stream";
 import TopBar from "./topBar";
 import ChatBar from "./chatBar";
 import BottomBar from "./bottomBar";
-import One from "./screens/1";
 import Zero from "./screens/0";
+import One from "./screens/1";
 
 
 

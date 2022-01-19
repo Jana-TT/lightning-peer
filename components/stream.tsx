@@ -11,8 +11,8 @@ const Stream = (props: props) => {
     
     return (
         <div>
-            <div className='border-gray-900 bg-red'>
-                <ReactPlayer url={props.display.stream} playing muted={props.muted} width="640px" height="600px"/>  
+            <div className='border-4 border-gray-900 rounded-lg'>
+                <ReactPlayer url={props.stream} playing muted={props.muted} width="640px" height="480px"/>
             </div>
             <button className='font-semibold text-lg text-gray-400'>{props.display.name}</button>
         </div>
