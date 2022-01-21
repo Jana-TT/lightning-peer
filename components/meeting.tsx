@@ -11,7 +11,6 @@ import One from "./screens/1";
 
 const Meeting = () => {
 
-
     const [state, setState] = useState(<Zero />);
     useEffect(() => {
 
