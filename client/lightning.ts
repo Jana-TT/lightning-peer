@@ -28,6 +28,12 @@ export interface Display {
     state: boolean
 }
 
+export interface Display {
+    stream?: MediaStream,
+    name?: string,
+    state: boolean
+}
+
 class Lightning extends EventEmitter {
 
     localUser: LocalUser
