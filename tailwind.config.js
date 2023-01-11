@@ -1,8 +1,10 @@
 const colors = require('tailwindcss/colors') 
 
 module.exports = {
-  mode:'jit',
-  purge: ["./components/**/*.{js,ts,jsx,tsx}", "./pages/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       colors:{
@@ -19,7 +21,6 @@ module.exports = {
           200: '#ebedef',
           100: '#f2f3f5',
         },
-       red:'#7f1d1d',
       }
     },
   },
