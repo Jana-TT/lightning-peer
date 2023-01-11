@@ -69,12 +69,9 @@ const Meeting = () => {
     return (
         <div className = "fixed left-0 m-0 right-80 bg-gray-700 h-screen text-gray-500 flex top-12 py-20 pt-40">
             <TopBar/>
-            <div className = "px-12"></div>
-            {localStream.stream}
-            <div className = "px-6"></div>
-            {remoteStream.stream}
-            {lightning.localStreamActive() ? <BottomBar/> : null}
+            <BottomBar/>
             <ChatBar/>
+            {localStream.stream}
         </div>
     )
 }
